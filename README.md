@@ -1,4 +1,4 @@
-# Minimal plugin eslint plugin
+# Minimal eslint plugin
 
 ## Install
 
