@@ -2,13 +2,13 @@
 
 ## Install
 
-```
+```bash
 npm i -D eslint-plugin-demoforfix
 ```
 
 Then add to `.eslintrc`
 
-```
+```json
 {
     "rules": {
         "demoforfix/no-string-classname": 2
@@ -22,7 +22,7 @@ And you wil recive error if try to use literall class name
 
 ## INVALID
 
-```
+```javascript
 import React, { PureComponent } from 'react';
 
 class Cart extends PureComponent {
@@ -37,7 +37,7 @@ export default Cart;
 
 ## VALID
 
-```
+```javascript
 import React, { PureComponent } from 'react';
 import styles from './Cart.pcss';
 
