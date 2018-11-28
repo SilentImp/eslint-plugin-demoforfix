@@ -20,7 +20,7 @@ Then add to `.eslintrc`
 ```
 And you wil recive error if try to use literall class name
 
-## VALID
+## INVALID
 
 ```
 import React, { PureComponent } from 'react';
@@ -35,7 +35,7 @@ export default Cart;
 
 ```
 
-## INVALID
+## VALID
 
 ```
 import React, { PureComponent } from 'react';
