@@ -1,0 +1,8 @@
+{
+  "name": "eslint-plugin-demoforfix",
+  "version": "1.0.2",
+  "description": "demo plugin",
+  "main": "no-string-classname.js",
+  "author": "Anton Nemtsev",
+  "license": "ISC"
+}
